@@ -5,13 +5,14 @@ A: Pattern matching, `wildcard`, and `subst` (see `Makefile`).
 
 Generate data with:  
 
-```{python}
+```{bash}
+mkdir data data/raw data/grouped
 python src/gen_raw_data.py
 ```
 
 Process data with:  
 
-```{python}
+```{bash}
 make
 ```
 
